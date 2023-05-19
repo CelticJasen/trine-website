@@ -7,7 +7,7 @@ const contactPage = (contentDiv) => {
             </h1>
             <ul>
                 <li>417-413-1549</li>
-                <li>contact@trinetechnologies.com</li>
+                <li>jasen@techie.com</li>
             </ul>
         </div>
     `
