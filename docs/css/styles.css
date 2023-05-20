@@ -11,7 +11,7 @@ body {
 
 /* Utility Style */
 h1, h2, h3, h4{
-    margin-bottom: 0.6rem; 
+    margin-bottom: 0.6rem;
 }
 
 p {
@@ -112,9 +112,106 @@ ul{
     text-align: center;
 }
 
+.TextBlock{
+    margin: 5%;
+    padding: 10px;
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: center;
+    background-color: rgb(17, 98, 145);
+    color: white;
+}
+
 .txt-type > .txt {
     border-right: 0.2rem solid rgb(212,175,55);
+}
+
+.TheMap {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MapImage {
+    height: auto;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .TextBlock {
+        max-height: 100vh;
+        overflow: auto;
+        font-size: 20px;
+    }
+
+    .TheMap {
+        margin: auto;
+        margin-top: 50px;
+        overflow: auto;
+    }
+}
+
+@supports (-webkit-scrollbar: none) {
+  /* Webkit-based browsers (Chrome, Safari) */
+  .TheMap {
+    width: calc(100vw - var(--scrollbar-width));
   }
+}
+
+@supports (scrollbar-width: none) {
+  /* Firefox */
+  .TheMap {
+    width: calc(100vw - var(--scrollbar-width));
+  }
+}
+
+@supports (-ms-overflow-style: none) {
+  /* Microsoft Edge */
+  .TheMap {
+    width: calc(100vw - var(--scrollbar-width));
+  }
+}
+
+.ContactData {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.ContactField {
+    flex-basis: 0;
+    flex: 1;
+    margin: 0 18px 42px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ContactHeader {
+    padding: 40px;
+    font-weight: bold;
+    line-height: 1em;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.ContactButton {
+    background-color: rgb(17, 98, 145);
+    margin: 0 0 24px;
+    padding: 18px 54px;
+    border-radius: 2px;
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
 
 #jobs {
     padding: 3rem;
@@ -146,7 +243,17 @@ ul{
         background-size: 500%, 100%;
         background-attachment: fixed;
     }
-  }
+
+    .ContactData {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .ContactHeader {
+        padding: 20px;
+        font-size: 1em;
+    }
+}
 
 #jobs h1 {
     background-color: rgba(0,0,0,0.5);
@@ -279,7 +386,7 @@ ul{
 }
 
 #testimonial {
-    background: #333 url(../images/review.jpg) no-repeat center center/cover; 
+    background: #333 url(../images/review.jpg) no-repeat center center/cover;
     color: #fff;
 }
 
@@ -339,7 +446,7 @@ ul{
     height: 100%;
     text-align: center;
     position: relative;
-    padding-top: 8rem; 
+    padding-top: 8rem;
     top: 0;
     left: 0;
     right: 0;
