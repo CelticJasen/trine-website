@@ -228,33 +228,6 @@ ul{
     background-attachment: fixed;
 }
 
-@media only screen and (max-width: 600px) {
-    #jobs {
-        padding: 3rem;
-        column-count: 1;
-        font-size: calc(5px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-        text-align: center;
-        color: white;
-        background-image: url("../images/bgneat.jpg");
-        background-color: #cccccc;
-        height: 100%;
-        background-position: 0rem 5rem;
-        background-repeat: no-repeat;
-        background-size: 500%, 100%;
-        background-attachment: fixed;
-    }
-
-    .ContactData {
-        flex-direction: column;
-        margin-top: 20px;
-    }
-
-    .ContactHeader {
-        padding: 10px;
-        font-size: 1em;
-    }
-}
-
 #jobs h1 {
     background-color: rgba(0,0,0,0.5);
     border-radius: 0.5rem;
@@ -498,8 +471,6 @@ footer {
     color: #f4f4f4;
 }
 
-
-
 #contact-section{
     margin: 3rem auto;
 }
@@ -568,4 +539,42 @@ footer {
 #location .items .box i{
     margin-bottom: 1rem;
     color: rgb(212,175,55);
+}
+
+@media only screen and (max-width: 600px) {
+    #jobs {
+        padding: 3rem;
+        column-count: 1;
+        font-size: calc(5px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        text-align: center;
+        color: white;
+        background-image: url("../images/bgneat.jpg");
+        background-color: #cccccc;
+        height: 100%;
+        background-position: 0rem 5rem;
+        background-repeat: no-repeat;
+        background-size: 500%, 100%;
+        background-attachment: fixed;
+    }
+
+    .ContactData {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .ContactHeader {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #333;
+        color: #fff;
+        padding: 0.7rem;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
 }
