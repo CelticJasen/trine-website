@@ -42,37 +42,37 @@ const contactPage = (contentDiv) => {
                             <tr>
                                 <th class="Days">Mon:</th>
                                 <td class="Times">
-                                    <span class="TimesData">9:00 AM – 5:00 PM</span>
+                                    <span class="TimesData">7:00 PM – 8:00 PM</span>
                                 </td>
                             </tr>
                             <tr>
                                 <th class="Days">Tue:</th>
                                 <td class="Times">
-                                    <span class="TimesData">9:00 AM – 5:00 PM</span>
+                                    <span class="TimesData">7:00 PM – 8:00 PM</span>
                                 </td>
                             </tr>
                             <tr>
                                 <th class="Days">Wed:</th>
                                 <td class="Times">
-                                    <span class="TimesData">9:00 AM – 5:00 PM</span>
+                                    <span class="TimesData">7:00 PM – 8:00 PM</span>
                                 </td>
                             </tr>
                             <tr>
                                 <th class="Days">Thu:</th>
                                 <td class="Times">
-                                    <span class="TimesData">9:00 AM – 5:00 PM</span>
+                                    <span class="TimesData">7:00 PM – 8:00 PM</span>
                                 </td>
                             </tr>
                             <tr>
                                 <th class="Days">Fri:</th>
                                 <td class="Times">
-                                    <span class="TimesData">9:00 AM – 5:00 PM</span>
+                                    <span class="TimesData">7:00 PM – 8:00 PM</span>
                                 </td>
                             </tr>
                             <tr>
                                 <th class="Days">Sat:</th>
                                 <td class="Times">
-                                    <span class="TimesData">11:00 AM – 4:00 PM</span>
+                                    <span class="TimesData">Closed</span>
                                 </td>
                             </tr>
                             <tr>
