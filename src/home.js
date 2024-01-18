@@ -22,7 +22,7 @@ const homePage = (contentDiv) => {
                     <h3>Call Now</h3>
                 </div>
                 <div id="callbutton">
-                    <a href="tel:417-413-1549" target="_blank" data-icon="">417-413-1549 <i class="fa fa-phone"></i></a>
+                    <a href="tel:417-712-6626" target="_blank" data-icon="">417-712-6626 <i class="fa fa-phone"></i></a>
                 </div>
             </div>
             <div id="jobs">
