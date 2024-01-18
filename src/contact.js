@@ -6,7 +6,7 @@ const contactPage = (contentDiv) => {
                 Contact Information:
             </h1>
             <ul>
-                <li>417-413-1549</li>
+                <li>417-712-6626</li>
                 <li>contact@trinetechnologies.tech</li>
             </ul>
         </div>
@@ -17,9 +17,9 @@ const contactPage = (contentDiv) => {
             <div class="ContactField">
                 <h3 class="ContactHeader">Contact</h3>
                 <div data-field="phone">
-                    <a class="ContactButton" href="tel:417-413-1549" data-tracking-element-type="3" jslog="56037; track:impression,click" itemprop="telephone" dir="ltr">Call now</a>
+                    <a class="ContactButton" href="tel:417-712-6626" data-tracking-element-type="3" jslog="56037; track:impression,click" itemprop="telephone" dir="ltr">Call now</a>
                     <ul>
-                        <li dir="ltr">(417) 413-1549</li>
+                        <li dir="ltr">(417) 712-6626</li>
                     </ul>
                 </div>
             </div>
